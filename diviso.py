@@ -1,10 +1,11 @@
 #!/usr/bin/env python
+
 '''Bones practiques. divisió entre nombres enters
 Institut Icària
 Programació - 1r Batxillerat - Curs 2023-24
 Aquest programa et demana dos nombres enter,
-despres automaticament et fa la diviso
-i et surt el residu i el cuocient
+després automàticament et fa la divisió
+i et surt el residu i el quocient
 '''
 __author__ = "Eric Navarro"
 __email__ = "enavarros@instituticaria.cat"
