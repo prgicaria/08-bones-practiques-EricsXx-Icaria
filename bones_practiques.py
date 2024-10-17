@@ -23,8 +23,7 @@ def divisio_entera():
             return
         quocient = dividend // divisor
         residu = dividend % divisor
-        print("\nResultats de la divisió entera:")
-        print(f"Divisió: {dividend} / {divisor}")
+        print(f"Divisió: {dividend}/{divisor}")
         print(f"Quocient: {quocient}")
         print(f"Residu: {residu}")
 
