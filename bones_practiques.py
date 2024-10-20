@@ -12,24 +12,10 @@ __email__ = "enavarros@instituticaria.cat"
 __date__ = "2024/10/17"
 
 
-def divisio_entera():
-    """Funció que realitza una divisió entera
-    i mostra el resultat a la pantalla."""
-    try:
-        dividend = int(input("Introdueix el dividend: "))
-        divisor = int(input("Introdueix el divisor: "))
-        if divisor == 0:
-            print("Error: No es pot dividir per zero.")
-            return
-        quocient = dividend // divisor
-        residu = dividend % divisor
-        print(f"Divisió: {dividend}/{divisor}")
-        print(f"Quocient: {quocient}")
-        print(f"Residu: {residu}")
-
-    except ValueError:
-        print("Error: Si us plau, introdueix nombres enters vàlids.")
-
-
-if __name__ == "__main__":
-    divisio_entera()
+Divident = int(input("Introdueix el Divident:"))
+Divisor = int(input("Introdueix el Divisor:"))
+Quocient = Divident // Divisor
+Residu = Divident % Divisor
+print(f"Divisió: {Divident}/{Divisor}")
+print(f"Quocient: {Quocient}")
+print(f"Residu: {Residu}")
