@@ -12,6 +12,7 @@ __email__ = "enavarros@instituticaria.cat"
 __date__ = "2024/10/17"
 
 
+print("Aquest programa et pot calcular una divisió entera")
 Divident = int(input("Introdueix el Divident:"))
 Divisor = int(input("Introdueix el Divisor:"))
 Quocient = Divident // Divisor
